@@ -1,0 +1,186 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Web bán đồng hồ</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<header>
+		<div id="logo">
+        	<img src="img/logo trang web.png"" width="277" height="105" /> 
+        </div>
+        <DIV id="search">
+            
+            <form id="form1" name="form1" method="post" action="">
+            <input name="tSearch" type="text" placeholder="Bạn muốn tìm gì..." size="90" />
+                <input type="submit" name="search" id="search" title="Tìm kiếm" value="Tìm kiếm"/>
+            </form>
+		</DIV>
+    <div id="dn">
+      <a href="dangnhap.html">Đăng nhập</a> | <a href="dangky.html">đăng ký </a>|<a href="#"> Giỏ hàng </a>
+      </div>
+	</header>
+	<nav id="bd">
+    <div id="subnav">
+    	<ul>
+              <li><a href="trangchu.html">TRANG CHỦ</a></li>
+              <li><a href="gioithieutrang.html">GIỚI THIỆU</a></li>
+              <li><a href="lienhe.html">LIÊN HỆ</a></li>
+              <li><a href="dichvu.html">DỊCH VỤ</a></li>
+              <li><a href="khuyenmai.html">KHUYẾN MẠI</a></li>
+              <li><a href="#">PHỤ KIỆN</a></li>
+              <li><a href="kinhnghiem.html">KINH NGHIỆM</a></li>
+              <li><a href="#">MUA NHIỀU</a></li>
+              <li><a href="suachua.html">SỮA CHỮA</a></li>
+      </ul>
+    
+            
+    </nav>
+    <div id="body">
+    	<article>
+        	<aside id="left">
+            <div>
+            	<p> Đồng hồ theo lứa tuổi </p>
+                    <ul type="square">
+                      <li><a href="#"> Nam </a> </li>
+                      <li><a href="#"> Nữ </a> </li>
+                      <li><a href="#"> Cặp đôi</a></li>
+                      <li><a href="#"> Trẻ em</a></li>
+                    </ul>
+              </div>
+              <div>      
+                    <p> Đồng hồ theo thương hiệu </p>
+                    <ul>
+                      <li><a href="#">CASIO </a></li>
+                      <li><a href="#">ORIENT </a></li>
+                      <li><a href="#">MINIFOCUS</a></li>
+                      <li><a href="#">CITIZEN</a></li>
+                      <li><a href="#">SEIKO</a></li>
+                    </ul>
+               </div>
+        	</aside>
+           	<section>
+            	<p>ĐỀ XUẤT</p>
+            	<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <label for="thongtincanhan"></label>
+  <fieldset>
+  <legend>Thông tin cá nhân</legend>
+  <table width="100%" border="0">
+  <tr>
+    <td width="31%">Họ và tên:</td>
+    <td width="69%"><label for="txtHOten"></label>
+      <input type="text" name="txtHOten" id="txtHOten" /></td>
+  </tr>
+  <tr>
+    <td>Ngày sinh:</td>
+    <td><label for="cbNgay"></label>
+      <select name="cbNgay" id="cbNgay">
+        <option selected="selected">1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      tháng 
+      <label for="cbThang"></label>
+      <select name="cbThang" id="cbThang">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      Năm 
+      <label for="txtNam"></label>
+      <input name="txtNam" type="text" id="txtNam" maxlength="4" /></td>
+  </tr>
+  <tr>
+    <td>Giới tính:</td>
+    <td><input type="radio" name="radio" id="txtGioitinh" value="txtGioitinh" />
+      <label for="txtGioitinh">Nam
+        <input type="radio" name="radio" id="txtGioitinh" value="txtGioiTinh" />
+        Nữ</label></td>
+  </tr>
+  <tr>
+    <td>Địa chỉ:</td>
+    <td><label for="txtDiaChi"></label>
+      <textarea name="txtDiaChi" id="txtDiaChi" cols="45" rows="5"></textarea></td>
+  </tr>
+  <tr>
+    <td>Điện thoại:</td>
+    <td><label for="txtDienThoai"></label>
+      <input type="text" name="txtDienThoai" id="txtDienThoai" /></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td><label for="txtEmail"></label>
+      <input type="text" name="txtEmail" id="txtEmail" /></td>
+  </tr>
+</table>
+
+  </fieldset>
+  <fieldset>
+  <legend>Thông tin đăng nhập</legend>
+  <table width="100%" height="81" border="0">
+    <tr>
+      <td width="44%">Tên đăng nhập:</td>
+      <td width="56%"><label for="txtTenDangNhap"></label>
+        <input type="text" name="txtTenDangNhap" id="txtTenDangNhap" /></td>
+    </tr>
+    <tr>
+      <td>Mật khẩu:</td>
+      <td><label for="txtMatKhau"></label>
+        <input type="text" name="txtMatKhau" id="txtMatKhau" /></td>
+    </tr>
+    <tr>
+      <td>Nhập lại mật khẩu</td>
+      <td><label for="txtNhapLaiMatKhau"></label>
+        <input type="text" name="txtNhapLaiMatKhau" id="txtNhapLaiMatKhau" /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="btnDangKy" id="btnDangKy" value="Đăng Ký" />
+        <input type="submit" name="btnHuy" id="btnHuy" value="Hủy" 
+        "/></td>
+      </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  </fieldset>
+  </form>
+                
+            </section>
+            <aside id="right">
+            <div id="sachbannhieu">
+            	<P>ĐỒNG HỒ BÁN NHIỀU</P>
+                    <P><img src="img/seiko-automatic.jpg" width="132" height="135" />
+                    <a href="#">Seiko Automatic-Nam</a></P>
+                    <P><img src="img/skmei-sk-1483-tre-em.jpg" alt="" width="132" height="135" />
+                    <a href="#">SKmei SK1483</a></P>
+                    <P><img src="img/mini-focus-0177-nu.jpg" alt="" width="132" height="135" />
+                    <a href="#">Minifocus mf177-nữ</a></P>
+             </div>
+             <div id="lienketwebsite">
+                    <p>LIÊN KẾT WEBSITE</p>
+                    <form id="form1" name="form1" method="post" action="">
+                      <label for="cbLienKet"></label>
+                      <select name="cbLienKet" id="cbLienKet">
+                        <option>-----Chọn trang liên kết----</option>
+                      </select>
+                    </form>
+              </div>
+              <div id="thongketruycap">
+                    <h4><P>THỐNG KÊ TRUY CẬP</P></h4>
+                    <P>Tổng truy cập: 1000</P>
+                    <P>Đang online: 120</P>
+              </div>
+            </aside>
+        </article>
+      </div>
+     <footer>
+     	<p>THÔNG TIN LIÊN HỆ</p>
+<p>Quyền sở hữu & Bản quyền Website này thuộc:
+CÔNG TY PHÂN PHỐI SẢN PHẨM CAO CẤP Đồng hồ 
+<p>Địa chỉ: Thủ Dầu Một-Bình Dương</P>
+<p>Hotline: 1800 1111</P>
+<p>Email: aaatdmu@gmail.com.vn</p>
+<p>Website: https://webbandongho.html
+</p>
+     </footer>
+   </body>
+   </html>
